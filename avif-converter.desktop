@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/png;image/jpeg;image/jpg;image/webp;image/tiff;
+Actions=convertToAvif;
+X-KDE-Priority=TopLevel
+
+[Desktop Action convertToAvif]
+Name=Convert to AVIF
+Name[es]=Convertir a AVIF
+Icon=image-x-generic
+Exec=~/.local/bin/avif-converter.sh %F

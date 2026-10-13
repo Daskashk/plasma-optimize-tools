@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=image/gif;
+Actions=GIFOptimizer;
+X-KDE-Priority=TopLevel
+Icon=image-x-generic
+
+[Desktop Action GIFOptimizer]
+Name=GIF Optimizer
+Name[es]=Convertir GIF a WebP
+Icon=image-x-generic
+Exec=/home/nab/.local/bin/gif-to-webp.sh %F

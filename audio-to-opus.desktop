@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=audio/flac;audio/x-flac;audio/wav;audio/x-wav;audio/aiff;audio/x-aiff;audio/mp4;audio/x-m4a;audio/mpeg;audio/mp3;audio/x-mp3;audio/x-mpeg;audio/x-wma;audio/aac;audio/x-aac;audio/x-ape;audio/x-wavpack;audio/x-tta;audio/x-vorbis+ogg;audio/x-ogg;audio/dsd;audio/x-dsd;audio/x-matroska;
+Actions=convertToOpus;
+X-KDE-Priority=TopLevel
+Icon=audio-x-generic
+
+[Desktop Action convertToOpus]
+Name=Convert to Opus
+Name[es]=Convertir a Opus
+Icon=audio-x-generic
+Exec=~/.local/bin/audio-to-opus.sh %F

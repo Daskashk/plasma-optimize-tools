@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/mp4;video/x-matroska;video/quicktime;video/x-msvideo;video/webm;video/mpeg;
+Actions=compressVideo;
+X-KDE-Priority=TopLevel
+Icon=video-x-generic
+
+[Desktop Action compressVideo]
+Name=Compress video
+Name[es]=Comprimir video
+Icon=video-x-generic
+Exec=~/.local/bin/video-converter.sh %F

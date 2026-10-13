@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=video/*;
+Actions=extractSubs;
+X-KDE-Priority=TopLevel
+Icon=video-x-generic
+
+[Desktop Action extractSubs]
+Name=Extract All Subtitles
+Name[es]=Extraer Todos los Subtítulos
+Icon=video-x-generic
+Exec=~/.local/bin/extract_all_subs.sh %F
